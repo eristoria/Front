@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eris</title>
+    <script>document.getElementsByTagName("html")[0].className += " js";</script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+        #header{
+            background-color: #512516;
+            height: 75px;
+            margin: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            margin-left: 10%;
+            margin-right: 10%;
+            transition: transform 0.2s;  
+        }
+        #header.headerhover{    
+            background-color: rgb(224, 174, 125);
+            transform: rotate( 0.5deg );
+            
+        }
+        #wrap{
+            width: 100%;
+            height: 100%;
+        }
+        #menu{
+            background-color: rgb(255, 255, 255);
+            opacity: 0.2;
+            width: 370px;
+            height: 600px;
+            border-radius: 5%;
+            box-shadow: 0px 0px 10px gray;
+            position: absolute;
+            top: 57%;
+            left: 17.5%;
+            transform: translate(-50%,-50%);
+            
+        }
+        #timetable{
+            background-color: rgb(255, 255, 255);
+            width: 570px;
+            height: 600px;
+            border-radius:5%;
+            opacity: 0.2;
+            box-shadow: 0px 0px 10px gray;
+            transition: all ease 2s 0s;
+            position: absolute;
+            top: 57%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            
+        }
+        #timetableray{
+            background-color: rgb(255, 255, 255);
+            width: 570px;
+            height: 600px;
+            border-radius:5%;
+            box-shadow: 0px 0px 10px gray;
+            position: absolute;
+            top: 57%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        #daystudent{
+            background-color: rgb(255, 255, 255);
+            opacity: 0.2;
+            width: 370px;
+            height: 600px;
+            border-radius:5%;
+            box-shadow: 0px 0px 10px gray;
+            position: absolute;
+            top: 57%;
+            left: 82.5%;
+            transform: translate(-50%,-50%);
+            
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        #menua{
+            color: rgb(0, 0, 0);
+            text-align: center;
+            width: 100%;
+        }
+        img{
+            position: fixed;
+            left: 31.5%;
+            top: 17%;
+            width: 570px;
+            height: 600px;
+        }
+        #iframe11{
+            width: 370px;
+            height: 600px;
+            border-radius:5%;
+            box-shadow: 0px 0px 10px gray;
+            position: absolute;
+            border: none;
+ 
+            top: 57%;
+            left: 17.5%;
+            transform: translate(-50%,-50%);
+        }
+
+    </style>
+</head>
+<body>
+    <!--<img src = "tt.jpg">-->
+    <div id="wrap">
+
+        <div id="header">
+            <div></div>
+            <h1><a href = "asdf.html">五星紅旗</a></h1>
+            <div></div>
+        </div>
+        <div id="name"></div>
+
+    </div>
+    <div class="vox" id="menu"> 
+        <h1><div id="menua">메뉴</div></iframe></h1>
+
+    </div>
+    <div class="vox" id="timetable"> 
+        <h1><a href = "https://dimigoin-front-v3.pages.dev/auth/login"><div id="menua">시간표</div></a></h1>
+    </div>
+    <iframe id="iframe11"src = "https://xn--299a1v27nvthhjj.com/"></iframe>
+    <div class="vox" id="daystudent"> 
+        <h1><a href = "https://www.dimigo.hs.kr/"><div id="menua">주번</div></a></h1>
+
+    </div>
+    <div id="timetableray">
+          <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
+            <div class="cd-schedule__timeline">
+              <ul>
+                <li><span>09:00</span></li>
+                <li><span>09:30</span></li>
+                <li><span>10:00</span></li>
+                <li><span>10:30</span></li>
+                <li><span>11:00</span></li>
+                <li><span>11:30</span></li>
+                <li><span>12:00</span></li>
+                <li><span>12:30</span></li>
+                <li><span>13:00</span></li>
+                <li><span>13:30</span></li>
+                <li><span>14:00</span></li>
+                <li><span>14:30</span></li>
+                <li><span>15:00</span></li>
+                <li><span>15:30</span></li>
+                <li><span>16:00</span></li>
+                <li><span>16:30</span></li>
+                <li><span>17:00</span></li>
+                <li><span>17:30</span></li>
+                <li><span>18:00</span></li>
+              </ul>
+            </div> <!-- .cd-schedule__timeline -->
+          
+            <div class="cd-schedule__events">
+              <ul>
+                <li class="cd-schedule__group"><!--월-->
+                  <div class="cd-schedule__top-info"><span>월</span></div>
+          
+                  <ul>
+                    <li class="cd-schedule__event">
+                      <a data-start="09:00" data-end="9:50" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                        <em class="cd-schedule__name">미적분</em>
+                      </a>
+                    </li>
+          
+                    <li class="cd-schedule__event">
+                      <a data-start="10:00" data-end="10:50" data-content="event-rowing-workout" data-event="event-2" href="#0">
+                        <em class="cd-schedule__name">영어</em>
+                      </a>
+                    </li>
+          
+                    <li class="cd-schedule__event">
+                      <a data-start="11:00" data-end="11:50"  data-content="event-yoga-1" data-event="event-3" href="#0">
+                        <em class="cd-schedule__name">정보통신/자료구조</em>
+                      </a>
+                    </li>
+                    <li class="cd-schedule__event">
+                        <a data-start="12:00" data-end="12:50" data-content="event-abs-circuit" data-event="event-4" href="#0">
+                          <em class="cd-schedule__name">중국어</em>
+                        </a>
+                      </li>
+            
+                      <li class="cd-schedule__event">
+                        <a data-start="1:50" data-end="2:40" data-content="event-rowing-workout" data-event="event-2" href="#0">
+                          <em class="cd-schedule__name">문학</em>
+                        </a>
+                      </li>
+            
+                      <li class="cd-schedule__event">
+                        <a data-start="2:50" data-end="3:40"  data-content="event-yoga-1" data-event="event-3" href="#0">
+                          <em class="cd-schedule__name">물리</em>
+                        </a>
+                      </li>
+                  </ul>
+                </li>
+          
+                <li class="cd-schedule__group"><!--화-->
+                  <div class="cd-schedule__top-info"><span>화</span></div>
+          
+                  <ul>
+                    <li class="cd-schedule__event">
+                        <a data-start="09:00" data-end="9:50" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                          <em class="cd-schedule__name">영어</em>
+                        </a>
+                      </li>
+            
+                      <li class="cd-schedule__event">
+                        <a data-start="10:00" data-end="10:50" data-content="event-rowing-workout" data-event="event-2" href="#0">
+                          <em class="cd-schedule__name">공업수학</em>
+                        </a>
+                      </li>
+            
+                      <li class="cd-schedule__event">
+                        <a data-start="11:00" data-end="11:50"  data-content="event-yoga-1" data-event="event-3" href="#0">
+                          <em class="cd-schedule__name">진로</em>
+                        </a>
+                      </li>
+                      <li class="cd-schedule__event">
+                          <a data-start="12:00" data-end="12:50" data-content="event-abs-circuit" data-event="event-4" href="#0">
+                            <em class="cd-schedule__name">성공적인 직업생활</em>
+                          </a>
+                        </li>
+              
+                        <li class="cd-schedule__event">
+                          <a data-start="1:50" data-end="2:40" data-content="event-rowing-workout" data-event="event-2" href="#0">
+                            <em class="cd-schedule__name">정보 보호관리</em>
+                          </a>
+                        </li>
+              
+                        <li class="cd-schedule__event">
+                          <a data-start="2:50" data-end="3:40"  data-content="event-yoga-1" data-event="event-3" href="#0">
+                            <em class="cd-schedule__name">정보 보호관리</em>
+                          </a>
+                        </li>
+                  </ul>
+                </li>
+          
+                <li class="cd-schedule__group"><!--수-->
+                  <div class="cd-schedule__top-info"><span>수</span></div>
+          
+                  <ul>
+                    <li class="cd-schedule__event">
+                        <a data-start="09:00" data-end="9:50" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                          <em class="cd-schedule__name">진로</em>
+                        </a>
+                      </li>
+            
+                      <li class="cd-schedule__event">
+                        <a data-start="10:00" data-end="10:50" data-content="event-rowing-workout" data-event="event-2" href="#0">
+                          <em class="cd-schedule__name">한국사</em>
+                        </a>
+                      </li>
+            
+                      <li class="cd-schedule__event">
+                        <a data-start="11:00" data-end="11:50"  data-content="event-yoga-1" data-event="event-3" href="#0">
+                          <em class="cd-schedule__name">문학</em>
+                        </a>
+                      </li>
+                      <li class="cd-schedule__event">
+                          <a data-start="12:00" data-end="12:50" data-content="event-abs-circuit" data-event="event-4" href="#0">
+                            <em class="cd-schedule__name">물리</em>
+                          </a>
+                        </li>
+              
+                        <li class="cd-schedule__event">
+                          <a data-start="1:50" data-end="2:40" data-content="event-rowing-workout" data-event="event-2" href="#0">
+                            <em class="cd-schedule__name">정보통신/자료구조</em>
+                          </a>
+                        </li>
+              
+                        <li class="cd-schedule__event">
+                          <a data-start="2:50" data-end="3:40"  data-content="event-yoga-1" data-event="event-3" href="#0">
+                            <em class="cd-schedule__name">CA</em>
+                          </a>
+                        </li>
+                  </ul>
+                </li>
+          
+                <li class="cd-schedule__group"><!--목-->
+                  <div class="cd-schedule__top-info"><span>목</span></div>
+          
+                  <ul>
+                    <li class="cd-schedule__event">
+                        <a data-start="09:00" data-end="9:50" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                          <em class="cd-schedule__name">한국사</em>
+                        </a>
+                      </li>
+            
+                      <li class="cd-schedule__event">
+                        <a data-start="10:00" data-end="10:50" data-content="event-rowing-workout" data-event="event-2" href="#0">
+                          <em class="cd-schedule__name">공업수학</em>
+                        </a>
+                      </li>
+            
+                      <li class="cd-schedule__event">
+                        <a data-start="11:00" data-end="11:50"  data-content="event-yoga-1" data-event="event-3" href="#0">
+                          <em class="cd-schedule__name">성공적인 직업생활</em>
+                        </a>
+                      </li>
+                      <li class="cd-schedule__event">
+                          <a data-start="12:00" data-end="12:50" data-content="event-abs-circuit" data-event="event-4" href="#0">
+                            <em class="cd-schedule__name">정보통신/자료구조</em>
+                          </a>
+                        </li>
+              
+                        <li class="cd-schedule__event">
+                          <a data-start="1:50" data-end="2:40" data-content="event-rowing-workout" data-event="event-4" href="#0">
+                            <em class="cd-schedule__name">체육</em>
+                          </a>
+                        </li>
+              
+                        <li class="cd-schedule__event">
+                          <a data-start="2:50" data-end="3:40"  data-content="event-yoga-1" data-event="event-3" href="#0">
+                            <em class="cd-schedule__name">미적분</em>
+                          </a>
+                        </li>
+                  </ul>
+                </li>
+          
+                <li class="cd-schedule__group"><!--금-->
+                  <div class="cd-schedule__top-info"><span>금</span></div>
+          
+                  <ul>
+                    <li class="cd-schedule__event">
+                        <a data-start="09:00" data-end="9:50" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                          <em class="cd-schedule__name">체육</em>
+                        </a>
+                      </li>
+            
+                      <li class="cd-schedule__event">
+                        <a data-start="10:00" data-end="10:50" data-content="event-rowing-workout" data-event="event-2" href="#0">
+                          <em class="cd-schedule__name">공업수학</em>
+                        </a>
+                      </li>
+            
+                      <li class="cd-schedule__event">
+                        <a data-start="11:00" data-end="11:50"  data-content="event-yoga-1" data-event="event-3" href="#0">
+                          <em class="cd-schedule__name">정보 보호관리</em>
+                        </a>
+                      </li>
+                      <li class="cd-schedule__event">
+                          <a data-start="12:00" data-end="12:50" data-content="event-abs-circuit" data-event="event-4" href="#0">
+                            <em class="cd-schedule__name">문학</em>
+                          </a>
+                        </li>
+              
+                        <li class="cd-schedule__event">
+                          <a data-start="1:50" data-end="2:40" data-content="event-rowing-workout" data-event="event-2" href="#0">
+                            <em class="cd-schedule__name">영어</em>
+                          </a>
+                        </li>
+              
+                        <li class="cd-schedule__event">
+                          <a data-start="2:50" data-end="3:40"  data-content="event-yoga-1" data-event="event-3" href="#0">
+                            <em class="cd-schedule__name">한국사</em>
+                          </a>
+                        </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          
+            <div class="cd-schedule-modal">
+              <header class="cd-schedule-modal__header">
+                <div class="cd-schedule-modal__content">
+                  <span class="cd-schedule-modal__date"></span>
+                  <h3 class="cd-schedule-modal__name"></h3>
+                </div>
+          
+                <div class="cd-schedule-modal__header-bg"></div>
+              </header>
+          
+              <div class="cd-schedule-modal__body">
+                <div class="cd-schedule-modal__event-info"></div>
+                <div class="cd-schedule-modal__body-bg"></div>
+              </div>
+          
+              <a href="#0" class="cd-schedule-modal__close text-replace">Close</a>
+            </div>
+          
+            <div class="cd-schedule__cover-layer"></div>
+          </div> <!-- .cd-schedule -->
+        
+          <script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+          <script src="assets/js/main.js"></script>
+    </div>
+    <script>
+        var header_hover = document.getElementById('header');
+        header_hover.addEventListener('mouseover',function(){ // header에 마우스 올렸을 때
+            header_hover.setAttribute('class','headerhover');
+        });
+        header_hover.addEventListener('mouseout',function(){ // header에 마우스 안 올렸을 때
+            header_hover.removeAttribute('class','headerhover');
+        });
+    </script>
+
+</body>
+</html>
